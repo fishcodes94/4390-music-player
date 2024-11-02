@@ -15,12 +15,13 @@ For a React app, you typically need to install the necessary dependencies. Run t
 ```bash
 Copy code
 npm install
+npm run dev
 
 Getting Started
 Once you have added users for development access, follow these steps to start using the app:
 
 Step 1: Receive Your Invitation
-  Check Your Email: Users you added will receive an email invitation to access the app. Make sure to check the inbox associated with your Spotify account.
+  Check Your Email: Users added will receive an email invitation to access the app. Make sure to check the inbox associated with your Spotify account.
 Step 2: Log In to the App
   Visit the App URL: Click on the link provided in the invitation or navigate to the app URL (e.g., http://localhost:3000 if you are running it locally).
   Authenticate with Spotify: When prompted, click the "Log in with Spotify" button. You will be redirected to the Spotify login page.
