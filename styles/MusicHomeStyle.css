@@ -1,0 +1,147 @@
+/* Home Screen Page Layout */
+.home-screen-page {
+    display: grid; /* Set a grid layout for the home screen */
+    grid-template-columns: 1fr 1fr 1fr; /* Create 3 equal-width columns */
+    grid-template-rows: 1fr 1fr; /* Create 2 equal-height rows */
+    height: 90vh; /* Set height to 90% of the viewport */
+    /* Dark green background background-color: #005035; */ /* Commented out background color */
+    width: fit-content; /* Width adjusts to fit content */
+    align-items: center; /* Vertically center items in the grid */
+}
+
+/* Logo Positioning */
+.home-logo {
+    position: fixed; /* Fix the logo to the corner of the viewport */
+    top: 0; /* Position from the top */
+    right: 0; /* Position from the right */
+}
+
+/* Language Button Styling */
+.language-button {
+    font-size: 20px; /* Font size for the language selection button */
+}
+
+/* Search Input and Logo Container */
+.input-language-logo-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center contents horizontally */
+    align-items: center; /* Center contents vertically */
+    position: fixed; /* Fix the container to the top of the screen */
+    top: 0; /* Position from the top */
+}
+
+/* Logo Image in Search Container */
+.input-language-logo-container img {
+    width: 120px; /* Set size for the logo image */
+}
+
+/* Home Track Name Styling */
+.home-track-name {
+    font-size: 10px; /* Font size for track names */
+}
+
+/* Home Artist Name Styling */
+.home-artist-name {
+    font-size: 18px; /* Font size for artist names */
+}
+
+/* Input Styling in Search Container */
+.input-language-logo-container input {
+    width: 440px; /* Width of the input field */
+    background-color: #BDB48D; /* Light gold background for input */
+}
+
+/* Button in Search Container */
+.input-language-logo-container button {
+    margin-right: 250px; /* Space between button and logo */
+    background-color: transparent; /* Transparent button background */
+    border: 0.5px solid lightgray; /* Light gray border for button */
+    width: 100px; /* Width of the button */
+    padding: 6px; /* Padding inside the button */
+    border-radius: 20px; /* Rounded corners for the button */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Recently Played and Today's Hits Items */
+.recently-played-items, .todays-hits-items {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    background-color: #537469; /* Dark green background for items */
+    padding: 10px; /* Internal padding for items */
+    border-radius: 20px; /* Rounded corners for items */
+    justify-content: space-between; /* Space out elements inside the item */
+}
+
+/* Song Title and Artist Styling */
+.song-artist h3, h4 {
+    background-color: #537469; /* Match the background color of items */
+}
+
+/* Main Title */
+.main-title {
+    margin-bottom: 40px; /* Space below the main title */
+}
+
+/* Song and Artist Container */
+.song-artist {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack song and artist vertically */
+    width: 100px; /* Fixed width for the song-artist container */
+}
+
+/* Images in Recently Played and Today's Hits */
+.recently-played-items img, .todays-hits-items img {
+    width: 70px; /* Size for thumbnail images */
+}
+
+/* Containers for Recently Played and Today's Hits */
+.recently-played-container, .todays-hits-container {
+    display: grid; /* Use grid layout for item containers */
+    grid-template-columns: 1fr 1fr 1fr; /* Create 3 equal-width columns */
+    grid-template-rows: 1fr 1fr; /* Create 2 equal-height rows */
+    gap: 12px; /* Space between items */
+    color: white; /* Text color for items */
+}
+
+/* Home Screen Content Container */
+.home-screen-container {
+    margin: 20px; /* Outer margin for the home screen container */
+}
+
+/* Titles for Recently Played and Today's Hits */
+.recently-played-title, .todays-hits-title {
+    margin: 20px 0; /* Vertical margin above and below titles */
+    font-size: 22px; /* Font size for titles */
+    color: white; /* White text color for titles */
+}
+
+/* Artist Image Styling */
+.artist-image {
+    margin-right: 10px; /* Space between image and text */
+    border-radius: 10px; /* Rounded corners for artist images */
+}
+
+/* Play Button Styling */
+.play-button {
+    width: 48px; /* Width of the play button */
+    height: 48px; /* Height of the play button */
+    border-radius: 50%; /* Circular shape for the button */
+    border: none; /* Remove border from the button */
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center icon vertically */
+    justify-content: center; /* Center icon horizontally */
+    background-color: #BDB48D; /* Background color for the play button */
+}
+
+/* Footer Container */
+.foot-container {
+    background-color: red; /* Background color for footer (can be customized) */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center content in the footer */
+}
+
+/* Play Icon Styling */
+.play-icon {
+    color: #665B34; /* Color for the play icon */
+}
+

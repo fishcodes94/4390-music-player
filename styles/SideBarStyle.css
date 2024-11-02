@@ -1,0 +1,152 @@
+/* Global Reset */
+* {
+  padding: 0; /* Reset default padding */
+  margin: 0; /* Reset default margin */
+  box-sizing: border-box; /* Ensures padding and border are included in element's width and height */
+}
+
+/* Sign Up Page Search Area */
+.search-area {
+  background-color: #196f3d; /* Dark green background for the search area */
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack children in a column */
+  width: 80vw; /* Set width to 80% of the viewport width */
+  padding: 20px; /* Padding for spacing inside the area */
+}
+
+/* Grid Layout for App */
+.App {
+  display: grid; /* Use grid layout for the main app */
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  grid-template-rows: 1fr 1fr; /* Two equal rows */
+  height: 100%; /* Full height of the parent element */
+}
+
+/* Form Input Styling */
+form input {
+  padding: 10px; /* Padding inside inputs for better touch targets */
+  width: 60%; /* Input width is 60% of the parent */
+  background: transparent; /* Transparent background for inputs */
+  border-radius: 20px; /* Rounded corners for inputs */
+  border: 1px solid white; /* White border for inputs */
+}
+
+/* Sidebar Styling */
+.sidebar {
+  background-color: #ADA57B; /* Beige background for the sidebar */
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack items in a column */
+  align-items: center; /* Center items horizontally */
+  color: white; /* White text color */
+  width: 100%; /* Full width of the sidebar */
+  max-width: 200px; /* Maximum width constraint */
+  min-width: 180px; /* Minimum width constraint */
+  height: 100vh; /* Full height of the viewport */
+  cursor: pointer; /* Pointer cursor for interactive elements */
+}
+
+/* Span Element Styling */
+span {
+  background-color: #ADA57B; /* Beige background for span elements */
+}
+
+/* Sidebar Menu */
+.sidebar__menu {
+  margin: 10px; /* Margin around the menu for spacing */
+  background-color: #ADA57B; /* Beige background for menu */
+}
+
+/* Sidebar Menu Items */
+.sidebar__menuItem {
+  margin: 20px; /* Margin around individual menu items */
+  background-color: #ADA57B; /* Beige background for menu items */
+}
+
+/* Recently Played Container */
+.recently-played-container {
+  display: grid; /* Use grid layout for the recently played section */
+  grid-template-columns: 1fr 1fr 1fr; /* Three equal columns */
+  grid-template-rows: 1fr 1fr; /* Two equal rows */
+  gap: 10px; /* Gap between grid items */
+  margin-bottom: 40px; /* Bottom margin for spacing */
+}
+
+/* Recently Played Item */
+.recently-item {
+  background-color: red; /* Red background for individual items */
+  width: 80%; /* Item width */
+  height: 70px; /* Item height */
+  border-radius: 10px; /* Rounded corners for items */
+}
+
+/* Recent and Hits Section */
+.recent-and-hits {
+  margin-top: 100px; /* Top margin for spacing above the section */
+  color: white; /* White text color */
+}
+
+/* Recent and Hits Title */
+.recent-and-hits h2 {
+  margin: 10px; /* Margin around the heading */
+}
+
+/* Playlist Items */
+.playlist-items li {
+  list-style: none; /* Remove bullet points from list items */
+  margin: 10px; /* Margin around playlist items */
+  background-color: #ADA57B; /* Beige background for playlist items */
+}
+
+/* Playlist Items Container */
+.playlist-items {
+  border-top: 2px solid green; /* Green top border for playlist items */
+  background-color: #ADA57B; /* Beige background for the container */
+}
+
+/* Hits Container */
+.hits-container {
+  display: grid; /* Use grid layout for hits section */
+  grid-template-columns: 1fr 1fr 1fr; /* Three equal columns */
+  grid-template-rows: 1fr 1fr; /* Two equal rows */
+  gap: 10px; /* Gap between grid items */
+  margin-bottom: 40px; /* Bottom margin for spacing */
+}
+
+/* Hits Item */
+.hits-item {
+  display: grid; /* Use grid layout for each hits item */
+  grid-template-columns: 2fr 6fr; /* Two columns, first column is smaller */
+  align-items: center; /* Center items vertically within the grid */
+  padding: 10px; /* Padding inside the hits item */
+  border-radius: 10px; /* Rounded corners for hits items */
+  background-color: gray; /* Gray background for hits items */
+  cursor: pointer; /* Pointer cursor to indicate interactivity */
+}
+
+/* Icon Styling */
+.icon {
+  padding: 5px; /* Padding inside icons */
+  color: white; /* White color for icons */
+}
+
+/* Sidebar Playlist */
+.sidebar__playlist {
+  margin-left: 9px; /* Left margin for sidebar playlist */
+  background-color: #ADA57B; /* Beige background for the playlist */
+}
+
+/* Icon Container */
+.all-icon {
+  background-color: #ADA57B; /* Beige background for the icon container */
+}
+
+/* Link Container */
+.icon-container {
+  text-decoration: none; /* Remove underline from links */
+}
+
+/* Link Styling */
+.link {
+  text-decoration: none; /* Remove underline from links */
+  color: white; /* White color for links */
+}

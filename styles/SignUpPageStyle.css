@@ -1,0 +1,82 @@
+/* Global Styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* Ensure padding and border are included in element's width and height */
+    background-color: #005035; /* Global background color */
+}
+
+/* Sign-Up Page Container */
+.signup-container {
+    display: flex; /* Flexbox layout */
+    height: 100vh; /* Full viewport height */
+    flex-direction: column; /* Column layout */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    color: white; /* White text color */
+    background-color: #005035; /* Dark green background */
+}
+
+/* Input Fields for Sign-Up */
+.signup-inputs {
+    width: 350px; /* Input width */
+    background-color: #005035; /* Dark green background */
+    border: 5px solid #685B34; /* Brown border */
+    margin-right: 30px; /* Space between inputs */
+    color: white; /* White text */
+    font-size: 20px; /* Font size */
+}
+
+/* Form Styling */
+form {
+    display: grid; /* Grid layout */
+    grid-template-columns: 2fr 6fr; /* Two columns, with the second one being larger */
+    align-items: center; /* Center items vertically */
+    padding-left: 10px; /* Left padding */
+    justify-content: center; /* Center form horizontally */
+    background-color: #006450; /* Light green background */
+    border-radius: 10px; /* Rounded corners */
+    width: 80%; /* Form width */
+    height: 70%; /* Form height */
+    max-width: 500px; /* Max width */
+    margin: 20px; /* Margin around form */
+}
+
+/* Label Styling */
+label {
+    background-color: transparent; /* Transparent background */
+    font-size: 20px; /* Label font size */
+    color: #A49665; /* Light brown text color */
+}
+
+/* Button Styling */
+button {
+    background-color: #A49665; /* Light brown background */
+    color: white; /* White text */
+    border: 6px solid #665b34; /* Dark brown border */
+    cursor: pointer; /* Pointer cursor */
+    width: 220px; /* Button width */
+    font-size: 30px; /* Font size */
+    padding: 10px; /* Padding inside button */
+    font-weight: 800; /* Bold text */
+}
+
+/* Placeholder Text Styling */
+input::placeholder {
+    color: white; /* White placeholder text */
+}
+
+/* Sign-Up Logo */
+.sign-up-logo {
+    width: 100px; /* Logo width */
+    position: fixed; /* Fixed positioning */
+    right: 0; /* Align to the right */
+    top: 0; /* Align to the top */
+}
+
+/* Image Container for Logo */
+.image-container {
+    width: 100%; /* Full width */
+    text-align: right; /* Align logo to the right */
+}
+

@@ -1,0 +1,194 @@
+/* App Container */
+.app-container {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Arrange children in a column */
+  background-color: #005035; /* Set background color for the app */
+  height: 100%; /* Full height of the parent container */
+  color: white; /* Text color for the app */
+}
+
+/* Input & Logo Container */
+.input-logo-container {
+  position: absolute; /* Position it absolutely within the parent */
+  left: 200px; /* Position from the left */
+  display: flex; /* Use flexbox for layout */
+  margin: 10px 10px 0 10px; /* Margin around the container */
+}
+
+.artist-page-logo {
+  width: 70px; /* Set width of the artist page logo */
+  position: fixed; /* Fixed position for the logo */
+  right: 0; /* Align to the right */
+  margin-left: 10px; /* Add margin on the left side */
+}
+
+/* Artist Song Info Section */
+.artist-song-info-container {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Arrange children in a column */
+  background-color: #537469; /* Set background color for the section */
+  padding: 10px; /* Add padding inside the section */
+  padding-right: 180px; /* Extra padding on the right */
+  width: 100%; /* Full width of the parent */
+}
+
+.artist-song-info-container img {
+  width: 150px; /* Set width for artist images */
+  border-radius: 10px; /* Round corners of artist images */
+  margin-bottom: 10px; /* Margin below artist images */
+}
+
+/* Top Result Song Section */
+.top-result-song {
+  position: absolute; /* Position absolutely within the parent */
+  left: 200px; /* Position from the left */
+  top: 72px; /* Position from the top */
+  width: calc(100% - 200px); /* Dynamic width calculation excluding sidebar */
+  height: 600px; /* Fixed height for the section */
+  display: grid; /* Use grid layout for song results */
+  grid-template-rows: 1fr 1fr; /* Define two equal rows */
+  overflow-y: auto; /* Enable vertical scrolling if content overflows */
+}
+
+/* Labels for Top Result and Song Result */
+.label-container {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-around; /* Space out labels evenly */
+  color: white; /* Text color for labels */
+}
+
+.top-result-container {
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center align content */
+  background-color: #537469; /* Set background color */
+  width: 100%; /* Full width of the parent */
+}
+
+.top-result-main-container {
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center align content */
+  background-color: #537469; /* Set background color */
+  width: 100%; /* Full width of the parent */
+}
+
+/* Play Button */
+.artist-play-button {
+  width: 40px; /* Set width of the play button */
+  height: 40px; /* Set height of the play button */
+  position: absolute; /* Position absolutely within the parent */
+  left: 125px; /* Position from the left */
+  top: 200px; /* Position from the top */
+  border: none; /* Remove default border */
+  border-radius: 50%; /* Circular button */
+  display: flex; /* Use flexbox for button content */
+  align-items: center; /* Center align items vertically */
+  justify-content: center; /* Center align items horizontally */
+  margin: 20px; /* Add margin around the button */
+}
+
+.artist-play-icon {
+  width: 15px; /* Set width for the play icon */
+}
+
+/* Song Result Section */
+.song-result-container {
+  background-color: #537469; /* Set background color for song results */
+  width: 100%; /* Full width of the parent */
+}
+
+.song-result-container img {
+  width: 50px; /* Set size for song images */
+}
+
+.song-item {
+  display: grid; /* Use grid layout for song items */
+  grid-template-columns: 1fr 20fr 20fr 20fr 20fr; /* Define layout for song item components */
+  font-size: 15px; /* Font size for song item text */
+}
+
+.song-item img {
+  width: 60px; /* Set size for song item images */
+}
+
+.track-name {
+  font-size: 10px; /* Font size for track names */
+}
+
+/* Artist Album Section */
+.artist-album-container {
+  display: flex; /* Use flexbox for layout */
+  position: sticky; /* Sticky positioning to keep it in view */
+  width: 40%; /* Set width for the album container */
+  gap: 10px; /* Spacing between album items */
+  margin-left: 10px; /* Margin on the left side */
+}
+
+.featured-artist-container {
+  display: flex; /* Use flexbox for layout */
+  position: sticky; /* Sticky positioning to keep it in view */
+  width: 40%; /* Set width for the featured artist container */
+  gap: 10px; /* Spacing between artist items */
+  margin-left: 10px; /* Margin on the left side */
+}
+
+.album-name-all, .related-name-all {
+  width: 70%; /* Set width for album and related names */
+}
+
+.artist-album img {
+  max-width: 100px; /* Set maximum width for album images */
+  border-radius: 10px; /* Round corners of album images */
+  min-width: 90px; /* Set minimum width for album images */
+  max-height: 100px; /* Set maximum height for album images */
+}
+
+.main-album-top-name {
+  font-size: 15px; /* Font size for main album names */
+  width: 16%; /* Set width for main album names */
+  margin-top: 10px; /* Add top margin */
+}
+
+.artist-feature img {
+  width: 100px; /* Set width for featured artist images */
+  border-radius: 10px; /* Round corners of featured artist images */
+  min-width: 90px; /* Set minimum width for featured artist images */
+  max-height: 100px; /* Set maximum height for featured artist images */
+}
+
+/* Titles for Albums and Songs */
+.album-title,
+.song-title {
+  margin: 10px 0 10px 10px; /* Margin around album and song titles */
+  font-size: 20px; /* Font size for album and song titles */
+}
+
+/* Label Positions for Top Result and Song Result */
+.top-result-label {
+  position: absolute; /* Absolute positioning for top result label */
+  left: 3px; /* Position from the left */
+  top: 1px; /* Position from the top */
+}
+
+.song-result-label {
+  margin-left: 90px; /* Margin on the left for song result label */
+  margin-bottom: 8px; /* Margin below the song result label */
+}
+
+/* History Button */
+.historyBtn {
+  width: 150px; /* Set width for history button */
+  font-size: 20px; /* Font size for history button */
+  height: 40px; /* Set height for history button */
+  border-radius: 20px; /* Round corners of the button */
+  border: 3px solid #665b34; /* Border styling */
+  background-color: #005035; /* Set background color for history button */
+}
+
+/* Footer Player */
+.fp {
+  position: fixed; /* Fixed positioning for footer player */
+  bottom: 0; /* Position at the bottom of the viewport */
+  width: calc(100% - 200px); /* Width accounting for sidebar width */
+  margin-left: 200px; /* Align footer with content */
+  z-index: 10; /* Ensure it stays on top of other content */
+}

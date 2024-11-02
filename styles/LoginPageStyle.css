@@ -1,0 +1,77 @@
+/* General Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Body Background Color */
+body {
+    background-color: #005035; /* Consistent background color */
+}
+
+/* Container for the Entire Login Page */
+.login-page-container {
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Center everything vertically and horizontally */
+    background-color: #005035; /* Dark green background */
+}
+
+/* Placeholder Text Color for Inputs */
+input::placeholder {
+    color: white; /* White placeholder text */
+}
+
+/* Login Title */
+h1 {
+    color: #A49665; /* Golden color for the "Login" text */
+}
+
+/* Logo Image Styling */
+img {
+    width: 350px; /* Size of the logo */
+}
+
+/* Input Fields: Username and Password */
+.username, .password {
+    width: 300px; /* Input width */
+    padding: 5px; /* Internal padding */
+    border-radius: 20px; /* Rounded corners */
+    margin: 10px; /* Spacing between inputs */
+    color: white; /* White text color */
+    background-color: #006450; /* Darker green background for input fields */
+    border: 3px solid #665b34; /* Gold-brown border */
+}
+
+/* General Button Styling */
+button {
+    width: 150px; /* Button width */
+    padding: 5px; /* Internal padding */
+    margin: 10px; /* Space around buttons */
+    font-size: 20px; /* Button text size */
+    border: 2px solid #665b34; /* Border matching input fields */
+    border-radius: 5px; /* Slightly rounded corners */
+}
+
+/* Login Button */
+.login-btn {
+    background-color: #BDB48D; /* Light gold background */
+    color: #006450; /* Dark green text */
+    font-weight: 600; /* Bold text */
+}
+
+/* Sign-Up Button */
+.signup-btn {
+    background-color: #006450; /* Dark green background */
+    color: #A49665; /* Light gold text */
+    font-weight: 600; /* Bold text */
+}
+
+/* Image Container Styling */
+.image-container {
+    display: flex;
+    justify-content: center; /* Center the logo image */
+}

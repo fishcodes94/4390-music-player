@@ -1,0 +1,74 @@
+/* General Reset */
+* {
+  padding: 0; /* Remove default padding from all elements */
+  margin: 0; /* Remove default margin from all elements */
+  box-sizing: border-box; /* Set box-sizing to include padding and border in element's total width and height */
+}
+
+/* Footer Container */
+footer {
+  background-color: #a49665; /* Background color for the footer */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically within the footer */
+  justify-content: center; /* Center items horizontally within the footer */
+  width: 100%; /* Full width of the footer */
+  padding: 10px; /* Padding inside the footer */
+  gap: 150px; /* Space between song information and player controls */
+  color: white; /* Text color for all items in the footer */
+}
+
+/* Song Information Section */
+.song-info {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center song info vertically */
+  position: absolute; /* Positioning song info absolutely within the footer */
+  left: 0; /* Align song info to the left edge of the footer */
+}
+
+/* Song Thumbnail */
+.song-thumbnail {
+  width: 85px; /* Set size for the song thumbnail */
+  margin: 5px; /* Margin around the thumbnail */
+  border-radius: 10px; /* Rounded corners for the thumbnail */
+}
+
+/* Song Title */
+.song-title {
+  font-size: 22px; /* Font size for displaying the song title */
+}
+
+/* Player Controls Section */
+.player-controls {
+  display: flex; /* Use flexbox for layout of player controls */
+  justify-content: center; /* Center controls horizontally */
+}
+
+/* Player Buttons */
+.player-controls button {
+  border: none; /* Remove border from buttons */
+  width: 40px; /* Fixed width for player buttons */
+  font-size: 35px; /* Icon size for player control buttons */
+  background: none; /* No background for buttons */
+}
+
+/* Progress Bar Section */
+.progress-bar {
+  margin-left: 30px; /* Space to the left of the progress bar */
+}
+
+/* Slider Container for Progress Bar */
+.slider-container {
+  display: flex; /* Use flexbox for layout of the slider */
+  align-items: center; /* Center slider elements vertically */
+  gap: 4px; /* Space between the time display and the slider */
+}
+
+/* Progress Slider */
+.progress-slider {
+  width: 300px; /* Fixed length for the progress slider */
+}
+
+/* Artist Name Display */
+.footer-artist-name {
+  margin-left: 10px; /* Space to the left of the artist name */
+}

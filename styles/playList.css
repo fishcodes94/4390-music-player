@@ -1,0 +1,208 @@
+/* Global Reset */
+* {
+    box-sizing: border-box; /* Ensure padding and borders are included in element's total width and height */
+    margin: 0; /* Remove default margin from all elements */
+    padding: 0; /* Remove default padding from all elements */
+}
+
+/* Playlist Main Container */
+.playlist-container {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange children in a column */
+    background-color: #005035; /* Dark green background for the playlist */
+}
+
+/* Playlist Image */
+.playlist-image {
+    width: 60px; /* Set width for playlist image */
+}
+
+/* Hamburger Icon (Menu) */
+.hamburger-bar {
+    margin-right: 15px; /* Right margin for spacing */
+    color: #665B34; /* Brownish color for the hamburger icon */
+}
+
+/* Playlist Header */
+.playlist-header {
+    display: flex; /* Use flexbox for alignment */
+    background-color: #006460; /* Teal background for the header */
+    padding: 10px; /* Padding inside header for spacing */
+}
+
+/* Search and Logo Container */
+.playlist-input-logo-container {
+    position: absolute; /* Position container absolutely */
+    left: 200px; /* Position from the left */
+    display: flex; /* Use flexbox for alignment */
+    margin-right: 10px; /* Right margin */
+    margin-top: 10px; /* Top margin */
+    margin-left: 10px; /* Left margin */
+}
+
+/* Playlist Logo */
+.playList-logo {
+    width: 70px; /* Set size for playlist logo */
+    position: fixed; /* Keep logo fixed in place */
+    right: 0; /* Align to the right */
+    margin-left: 10px; /* Left margin */
+}
+
+/* Playlist Body */
+.playlist-body {
+    background-color: #005035; /* Dark green background for the playlist body */
+    position: absolute; /* Position absolutely within the parent */
+    top: 120px; /* Position from the top */
+    left: 220px; /* Position from the left */
+    width: 78%; /* Set width of the playlist body */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange children in a column */
+    overflow: hidden; /* Hide overflow content */
+}
+
+/* Table Container */
+.playlist-table-container {
+    max-height: 400px; /* Set a maximum height for the table */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds max height */
+}
+
+/* Adjust the footer player position */
+.fps {
+    position: fixed; /* Fix the footer player at the bottom */
+    bottom: 0; /* Position at the bottom of the viewport */
+    margin-left: 200px; /* Align it with the layout */
+    width: calc(100% - 200px); /* Match the width of the playlist body */
+    background-color: #006450; /* Same color as the playlist for consistency */
+}
+
+/* Secondary Search Container */
+.secondary-search-container {
+    display: flex; /* Use flexbox for alignment */
+    margin-top: 10px; /* Top margin for spacing */
+    align-items: center; /* Center items vertically */
+}
+
+/* Table Styling */
+table {
+    width: 100%; /* Full width table */
+    border-collapse: collapse; /* Remove space between borders */
+    margin-top: 20px; /* Top margin for spacing */
+    overflow-y: auto; /* Enable vertical overflow */
+}
+
+/* Table Row Background for 1st and 3rd Rows */
+.first, .third {
+    background-color: #006450; /* Dark teal background for specific rows */
+}
+
+/* Table Header (th) and Cell (td) Styling */
+th, td {
+    padding: 12px; /* Padding inside table cells */
+    text-align: left; /* Align text to the left */
+}
+
+th {
+    color: #D8CCA3; /* Light gold text color for headers */
+}
+
+td {
+    color: white; /* White text color for table cells */
+}
+
+/* Input Text Box */
+input[type="text"] {
+    width: 100%; /* Full width input box */
+    padding: 10px; /* Padding inside the input */
+    margin-top: 10px; /* Top margin for spacing */
+}
+
+/* Table Images (Thumbnails) */
+.table-image {
+    width: 50px; /* Size for thumbnail images */
+    border-radius: 5px; /* Rounded corners for thumbnails */
+}
+
+/* Main Playlist Image */
+.main-playlist-image {
+    width: 200px; /* Size for large playlist images */
+    border-radius: 8px; /* Rounded corners for the image */
+}
+
+/* Playlist Buttons Styling */
+.playlist-buttons {
+    background-color: transparent; /* Transparent background for buttons */
+    border: none; /* No border for buttons */
+    width: 10px; /* Small button size */
+    height: 10px; /* Small button height */
+}
+
+/* Playlist Buttons Container */
+.playlist-btns-container {
+    display: flex; /* Use flexbox for layout */
+    padding-right: 10px; /* Right padding for spacing */
+    position: sticky; /* Fix the position during scrolling */
+    justify-content: space-between; /* Space between buttons */
+    left: 1090px; /* Fixed left position */
+    margin-top: 200px; /* Top margin for spacing */
+    margin-left: 20px; /* Left margin */
+}
+
+/* Playlist Artist Name Styling */
+.artist-playlist {
+    font-size: 20px; /* Font size for artist name */
+}
+
+/* Playlist Title Styling */
+.my-playlist-title {
+    font-size: 30px; /* Font size for playlist title */
+}
+
+/* Created Playlist Info Section */
+.created-info-playlist {
+    display: flex; /* Use flexbox for layout */
+    background-color: #006450; /* Dark teal background for info section */
+    padding: 20px; /* Padding inside the container */
+    color: white; /* White text color */
+    margin-bottom: 20px; /* Bottom margin for spacing */
+}
+
+/* My Playlist Container */
+.my-playlist-container {
+    margin-left: 10px; /* Left margin for playlist container */
+}
+
+/* Artist Song Info Container */
+.artist-song-info-container p {
+    margin-bottom: 5px; /* Space below paragraphs */
+}
+
+/* History Button Styling */
+.historyBtn {
+    height: fit-content; /* Height adjusts to content */
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center the button's content */
+}
+
+/* Playlist Language Button Styling */
+.playlist-language-button {
+    margin-right: 250px; /* Space between button and logo */
+    background-color: transparent; /* Transparent background */
+    border: 0.5px solid lightgray; /* Light border */
+    width: 100px; /* Width for the button */
+    padding: 6px; /* Padding inside the button */
+    border-radius: 20px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 20px; /* Font size for button text */
+    position: relative; /* Position relative for positioning adjustments */
+    top: -7px; /* Move button slightly up */
+}
+
+/* Playlist Action Button Styling */
+.playlist-action-btn {
+    width: 40px; /* Width for action buttons */
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    font-size: 23px; /* Font size for button text */
+    border: 0; /* Remove border */
+}

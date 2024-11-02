@@ -1,0 +1,117 @@
+/* Global Styles */
+* {
+  padding: 0; /* Reset padding for all elements */
+  margin: 0; /* Reset margin for all elements */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+  background-color: transparent; /* Set default background color to transparent */
+}
+
+/* Logo Styling */
+.logo {
+  width: 60px; /* Set width of the logo */
+}
+
+/* Back Button and Header Container */
+.image-back {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space out child elements evenly */
+  background-color: #005035; /* Set background color for header */
+}
+
+.backBtn {
+  font-size: 30px; /* Set font size for the back button */
+  color: #bdb48d; /* Set text color for the back button */
+  margin: 10px; /* Add margin around the back button */
+  background-color: transparent; /* Set background to transparent */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Main History Container */
+.history-container {
+  height: 100vh; /* Set height to full viewport height */
+}
+
+/* Artist History Section */
+.artist-history-container {
+  display: flex; /* Use flexbox for layout */
+  padding: 10px; /* Add padding around the section */
+  gap: 30px; /* Set spacing between child elements */
+  background-color: #005035; /* Set background color for the artist history section */
+  min-height: 50%; /* Set minimum height to half the viewport height */
+}
+
+.artist-img {
+  border-radius: 10px; /* Round corners of artist images */
+}
+
+/* History Paragraph */
+.history-paragraph {
+  font-size: 23px; /* Set font size for history text */
+  color: white; /* Set text color for history paragraph */
+}
+
+/* Artist Name Styling */
+.artist-name {
+  background-color: #ada57b; /* Set background color for artist name */
+  text-align: center; /* Center-align text */
+  border-radius: 4px; /* Round corners of artist name box */
+  padding: 5px; /* Add padding inside the artist name box */
+  font-size: 25px; /* Set font size for artist name */
+  color: white; /* Set text color for artist name */
+}
+
+/* Albums Grid Section */
+.artist-albums {
+  display: grid; /* Use grid layout for albums */
+  grid-template-columns: 1fr 1fr 1fr; /* Define three equal columns */
+  grid-template-rows: 1fr 1fr; /* Define two equal rows */
+  margin: 10px; /* Add margin around the album grid */
+  gap: 10px; /* Set spacing between albums */
+}
+
+.album-item-img {
+  width: 120px; /* Set size for album images */
+}
+
+.album-title {
+  background-color: transparent; /* Set background color for album titles to transparent */
+}
+
+/* Songs List Section */
+.song-cover {
+  width: 55px; /* Set size for song cover images */
+}
+
+.song-item {
+  display: grid; /* Use grid layout for song items */
+  grid-template-columns: 0.6fr 1fr 1fr 1fr; /* Define layout for song item components */
+  gap: 40px; /* Set spacing between song items */
+  margin: 10px; /* Add margin around song items */
+  font-size: 23px; /* Set font size for song item text */
+  align-items: center; /* Center-align items vertically */
+}
+
+/* More Info Container */
+.more-info-container {
+  background-color: #006450; /* Set background color for more info section */
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space out child elements evenly */
+  align-items: center; /* Center-align items vertically */
+  padding: 20px; /* Add padding inside the container */
+  min-height: 50%; /* Set minimum height to half the viewport height */
+  color: white; /* Set text color to white */
+  width: 100%; /* Set width to fill container */
+  gap: 25%; /* Set spacing between albums and songs */
+}
+
+/* Albums Container */
+.albums-container {
+  height: fit-content; /* Set height to fit content */
+}
+
+/* More Songs Container */
+.more-songs-container {
+  height: fit-content; /* Set height to fit content */
+  margin-bottom: 394px; /* Add bottom margin to separate from other content */
+  width: 100%; /* Set width to fill container */
+}

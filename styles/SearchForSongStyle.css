@@ -1,0 +1,25 @@
+/* User Music Search Container */
+.user-music-search {
+    width: 440px; /* Set width of the music search input area */
+    background-color: #BDB48D; /* Light brown background color */
+    padding: 10px; /* Padding inside the container for spacing */
+    border-radius: 20px; /* Rounded corners for a softer look */
+    border: 3px solid #665b34; /* Brown border around the container */
+}
+
+/* Search Result Container */
+.search-result-container {
+    background-color: #196f3d; /* Dark green background for the search results */
+    position: absolute; /* Position it absolutely based on the parent element */
+    top: 50px; /* Position from the top of the parent element */
+    z-index: 999; /* Ensure it appears above other elements */
+    width: 53%; /* Set width of the search results container */
+    left: 8px; /* Position from the left side */
+    color: white; /* White text color for better visibility */
+    cursor: pointer; /* Change cursor to pointer on hover to indicate clickable items */
+}
+
+/* Image Styling within Search Result Container */
+.search-result-container img {
+    width: 40px; /* Set width for images within the search results */
+}

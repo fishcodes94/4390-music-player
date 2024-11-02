@@ -1,0 +1,59 @@
+/* Universal Reset */
+* {
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+/* Customization Sidebar */
+.customization-side-bar {
+    padding: 16px; /* Padding inside the sidebar */
+    width: 200px; /* Set fixed width for the sidebar */
+    background: #f0f0f0; /* Background color for sidebar */
+    border-right: 1px solid #ccc; /* Right border for visual separation */
+    max-width: 200px; /* Maximum width to prevent expansion */
+    min-width: 180px; /* Minimum width to maintain layout */
+    height: 100vh; /* Full height of the viewport */
+    color: white; /* Text color inside the sidebar */
+    background-color: #006450; /* Darker background color for the sidebar */
+}
+
+/* Headings */
+h2 {
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+/* Label Styles */
+label {
+    color: white; /* Text color for labels */
+    margin-top: 10px; /* Space above labels */
+}
+
+/* Color Options Container */
+.customization-colorOptions {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange children in a column */
+    margin-top: 20px; /* Space above the color options */
+}
+
+/* Individual Color Box */
+.colorBox {
+    width: 40px; /* Width of the color box */
+    height: 40px; /* Height of the color box */
+    margin: 5px; /* Margin around each color box */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    border-radius: 50%; /* Make color boxes circular */
+}
+
+/* Color Option Layout */
+.colorOption {
+    display: grid; /* Use grid layout for options */
+    grid-template-columns: 1fr 2fr 1fr; /* Three columns with the middle one wider */
+    justify-content: center; /* Center content in the grid */
+}
+
+/* Home Button Styles */
+.customization-homeBtn {
+    margin-right: 10px; /* Space to the right of the home button */
+    background-color: transparent; /* Transparent background for the button */
+}
