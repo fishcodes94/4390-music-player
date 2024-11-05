@@ -6,7 +6,7 @@ import { useEffect } from 'react'; // Import useEffect for side effects in the c
 
 // Define Spotify authentication constants
 const SPOTIFY_CLIENT_ID = "f7287b5c077d42c8908736a708386967"; // Your Spotify client ID
-const SPOTIFY_REDIRECT_URI = "http://localhost:5174/"; // URI to redirect to after login
+const SPOTIFY_REDIRECT_URI = "http://localhost:5173/"; // URI to redirect to after login
 const SPOTIFY_AUTH_ENDPOINT = "https://accounts.spotify.com/authorize"; // Spotify authorization endpoint
 const SPOTIFY_RESPONSE_TYPE = "token"; // Response type to receive an access token
 // Define necessary scopes for the access token
